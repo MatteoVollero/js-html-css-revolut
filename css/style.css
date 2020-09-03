@@ -34,12 +34,20 @@ ul li{
   list-style: none;
 }
 
-ul li a{
-  display: inline-block;
+li a{
   list-style: none;
   padding: 0 5px;
   font-size: 12px;
   color: #b7bcc0;
+}
+
+.check-menu{
+  display: flex;
+  flex-direction: column;
+}
+
+.off{
+  display: none;
 }
 
 .bottone{
